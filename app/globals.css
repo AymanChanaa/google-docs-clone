@@ -1,10 +1,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* @import "@liveblocks/react-ui/styles.css"; */
-/* @import "@liveblocks/react-lexical/styles.css"; */
-
 @import "../styles/dark-theme.css";
+@import "@liveblocks/react-ui/styles.css";
+@import "@liveblocks/react-tiptap/styles.css";
 
 /* ======================= DARK MODE VARIANT ======================= */
 @custom-variant dark (&:is(.dark *));
